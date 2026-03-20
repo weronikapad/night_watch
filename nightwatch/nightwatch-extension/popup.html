@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="UTF-8">
+        <style>
+            * {margin: 0; padding: 0; box-sizing: border-box; }
+            body {
+                width: 320px;
+                min-height: 400px;
+                background: #0a0a2e;
+                color: white;
+                font-family: Georgia, serif;
+                padding: 20px;
+            }
+            .header p {
+                text-align: center;
+                margin-bottom: 20px;
+            }
+            .site-card {
+                background: rgba(255, 255, 255, 0.7);
+                border-radius: 12px;
+                padding: 16px;
+                margin-bottom: 14px;
+            }
+            .site-name {
+                font-size: 14px;
+                color: #e0e0ff;
+                margin-bottom: 6px;
+            }
+
+        .score-bar-bg {
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 10px;
+            height: 8px;
+            margin-bottom: 6px;
+        }
+        .score-bar {
+            height: 8px;
+            border-radius: 10px;
+            transition: width 0.8s ease;
+        }
+        .verdict {
+            font-size: 12px;
+            color: #aaaacc;
+        }
+        .status {
+            text-align: center;
+            font-size: 12px;
+            color: #a78bfa;
+            margin-bottom: 10px;
+        }
+        .warning {
+            background: rgba(239, 68, 68, 0.15);
+            border: 1px solid rgba(239, 68, 68, 0.4);
+            border-radius: 10px;
+            padding: 12px;
+            font-size: 12px;
+            color: #fca5a5;
+            margin-bottom: 14px;
+            display: none;
+        }
+        </style>
+    </head>
+    <body>
+        <div class="header">
+            <h1>NightWatch</h1>
+            <p>AI privacy guardian</p>
+        </div>
+
+        <div class="warning" id="warning"></div>
+        <div id="cards"></div>
+        <div class="status" id="status">Scaning current tab...</div>
+        
+        <script src="popup.js"></script>
+    </body>
+</html>

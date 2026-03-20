@@ -1,0 +1,15 @@
+{
+    "manifest_version": 3,
+    "name": "Nightwatch",
+    "version": "1.0",
+    "description": "A browser extension  that check it an AI is watching you",
+    "permissions": ["activeTab", "tabs"],
+    "host_permissions": ["http://127.0.0.1:5000/*"],
+    "action": {
+        "default_popup": "popup.html",
+        "default_icon": {
+            "48": "icons/star48.png",
+            "128": "icons/star128.png"
+        }
+    }
+}

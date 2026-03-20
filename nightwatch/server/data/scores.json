@@ -1,0 +1,79 @@
+[
+    {
+        "name": "Claude",
+        "company": "Anthropic",
+        "score": 82,
+        "data retention": "Until user deletes",
+        "training": "Opt-out available",
+        "privacy policy": "https://www.anthropic.com/privacy",
+        "breaches": "None known",
+        "jurisdiction": "USA",
+        "verdict": "safe"
+    },
+    {
+        "name": "ChatGPT",
+        "company": "OpenAI",
+        "score": 61,
+        "data retention": "30 days",
+        "training": "Opt-out available",
+        "privacy policy": "https://openai.com/privacy",
+        "breaches": "225k credentials leaked 2024",
+        "jurisdiction": "USA",
+        "verdict": "moderate"
+    },
+    {
+        "name": "Gemini",
+        "company": "Google",
+        "score": 49,
+        "data retention": "18 months",
+        "training": "No opt-out",
+        "privacy policy": "https://policies.google.com/privacy",
+        "breaches": "None known",
+        "jurisdiction": "USA",
+        "verdict": "moderate"
+    },
+    {
+        "name": "Grok",
+        "company": "xAI",
+        "score": 41,
+        "data retention": "Unknown",
+        "training": "No opt-out",
+        "privacy policy": "https://x.ai/privacy",
+        "breaches": "None known",
+        "jurisdiction": "USA",
+        "verdict": "risky"
+    },
+    {
+        "name": "Meta AI",
+        "company": "Meta",
+        "score": 28,
+        "data retention": "Unknown",
+        "training": "No opt-out",
+        "privacy policy": "https://www.meta.com/privacy",
+        "breaches": "None known",
+        "jurisdiction": "USA",
+        "verdict": "risky"
+    },
+    {
+        "name": "DeepSeek",
+        "company": "DeepSeek",
+        "score": 12,
+        "data retention": "Unknown",
+        "training": "No opt-out",
+        "privacy policy": "https://www.deepseek.com/privacy",
+        "breaches": "1M+ records leaked 2025",
+        "jurisdiction": "China",
+        "verdict": "dangerous"
+    },
+    {
+        "name": "Ecosia AI",
+        "company": "Ecosia",
+        "score": 74,
+        "data retention": "Short term, anonymized",
+        "training": "Opt-out available",
+        "privacy policy": "https://ecosia.org/privacy",
+        "breaches": "None known",
+        "jurisdiction": "Germany",
+        "verdict": "safe"
+    }
+]
