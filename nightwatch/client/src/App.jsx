@@ -13,7 +13,7 @@ export default function App() {
   const scanEmail = async () => {
     setLoading(true)
     try {
-      const res = await axios.post("http://127.0.0.1:5000/api/scan-email", { email })
+      const res = await axios.post("https://night-watch.onrender.com/api/scan-email", { email })
       setResults(res.data)
     } catch (err) {
       console.error(err)
@@ -23,7 +23,7 @@ export default function App() {
 
   const loadScorecard = async () => {
     try {
-      const res = await axios.get("http://127.0.0.1:5000/api/scorecard")
+      const res = await axios.get("https://night-watch.onrender.com/api/scorecard")
       setScorecard(res.data.platforms)
     } catch (err) {
       console.error(err)
@@ -33,7 +33,7 @@ export default function App() {
   const analyzePrompt = async () => {
     setPromptLoading(true)
     try {
-      const res = await axios.post("http://127.0.0.1:5000/api/analyze-prompt", { prompt })
+      const res = await axios.post("https://night-watch.onrender.com/api/analyze-prompt", { prompt })
       setPromptResult(res.data)
     } catch (err) {
       console.error(err)
